@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abarai6003.github.io/simple-todo-react/static/css/main.e591f026.css",
+    "main.js": "/abarai6003.github.io/simple-todo-react/static/js/main.523a8953.js",
+    "index.html": "/abarai6003.github.io/simple-todo-react/index.html",
+    "main.e591f026.css.map": "/abarai6003.github.io/simple-todo-react/static/css/main.e591f026.css.map",
+    "main.523a8953.js.map": "/abarai6003.github.io/simple-todo-react/static/js/main.523a8953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e591f026.css",
+    "static/js/main.523a8953.js"
+  ]
+}
