@@ -1,0 +1,58 @@
+.char {
+	padding: 15px 20px;
+	border-bottom: 1px solid #3d5a80;
+	display: grid;
+	grid-template-columns: auto 15% 20%;
+	gap: 15px;
+	background-color: white;
+	&.increase {
+		.char__price,
+		.char__name {
+			color: #ff0000;
+		}
+	}
+
+	&.like {
+		.char__thumb {
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+
+	&__name {
+		line-height: 35px;
+		cursor: pointer;
+	}
+	&__price {
+		line-height: 35px;
+		border: none;
+	}
+
+	&:last-child {
+		border-bottom: none;
+	}
+
+	&__thumb {
+		transition: 0.3s all;
+		transform: translateX(60px);
+		opacity: 0;
+		cursor: auto;
+	}
+	&__icons {
+		display: flex;
+		justify-content: flex-end;
+		gap: 10px;
+		img {
+			width: 30px;
+			height: 30px;
+		}
+	}
+	&__сookie,
+	&__recycle {
+		transition: all 0.1s ease-out;
+		&:hover {
+			transform: scale(1.1);
+		}
+		cursor: pointer;
+	}
+}
