@@ -1,4 +1,7 @@
 import "./employees-list-item.scss"
+import trash from "../../images/trash.webp"
+import like from "../../images/like.jpeg"
+import cookie from "../../images/cookie.png"
 
 const EmployeesListItem = props => {
 	const { name, salary, onToggle, updateSalary, increase, rise, onDelete } =
@@ -26,16 +29,16 @@ const EmployeesListItem = props => {
 					onClick={onToggle}
 					data-toggle='increase'
 					className='char__сookie'
-					src='/images/cookie.png'
+					src={cookie}
 					alt='сookie'
 				/>
 				<img
 					onClick={onDelete}
 					className='char__recycle'
-					src='/images/trash.webp'
+					src={trash}
 					alt='recycle'
 				/>
-				<img className='char__thumb' src='/images/like.jpeg' alt='thumb' />
+				<img className='char__thumb' src={like} alt='thumb' />
 			</div>
 		</li>
 	)
